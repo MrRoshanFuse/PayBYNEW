@@ -74,7 +74,6 @@ inputs.forEach((input, index1) => {
 
 
  function formvalid() { 
- alert("inside validation");
  const inputs = document.querySelectorAll('input[type="password"]');
         const values = [];
   
