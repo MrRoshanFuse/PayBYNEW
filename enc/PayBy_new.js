@@ -92,7 +92,7 @@ inputs.forEach((input, index1) => {
        
          if(otp1.length==0||otp1.length==null)
         {
-        
+        document.getElementById("alerts").style.visibility = "visible";
         document.getElementById("alerts").innerHTML="Please Enter Your OTP !";
            return false;
          }  
